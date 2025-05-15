@@ -1,2 +1,2 @@
 # Neural-Network
-Implementation of neural network from scratch in python for MNIST dataset
+Implementation of Neural Network from scratch in python for MNIST dataset
