@@ -1,8 +1,9 @@
+#fetching important libraries
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
-####################################################### important libraries fetched
+
 # loading the data set 
 br = load_breast_cancer()
 X = br.data
@@ -55,7 +56,7 @@ plt.title("Cost vs Iterations")
 plt.show()
 
 
-# no need of regularisation term as cost function does not oscillate
+# no need of regularisation term as cost does not oscillate with iterations
 total_cost =  cost_function(w,b,len(X_test),X_test,y_test)
 print(f"Your total error in testing data is: {round(total_cost*100,2)}%")
 y_GUESS = []
